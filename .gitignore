@@ -1,0 +1,24 @@
+
+# Windows and editor files
+Thumbs.db
+Desktop.ini
+.vscode/
+*.tmp
+*.log
+
+# Python environments and caches
+__pycache__/
+.venv/
+venv/
+.env
+
+# Secrets and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Power BI temporary and backup files
+*.pbit
+~$*.pbix
+*.bak

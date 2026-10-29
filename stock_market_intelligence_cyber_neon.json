@@ -1,0 +1,111 @@
+{
+  "name": "Stock Market Intelligence - Cyber Neon",
+  "dataColors": [
+    "#29B6FF",
+    "#A78BFA",
+    "#FFB020",
+    "#00E0A4",
+    "#FF5D8F",
+    "#00E5FF",
+    "#4F8CFF",
+    "#C4B5FD"
+  ],
+  "background": "#070D18",
+  "foreground": "#F4F8FF",
+  "tableAccent": "#00D9FF",
+  "good": "#00E0A4",
+  "neutral": "#FFB020",
+  "bad": "#FF5D8F",
+  "maximum": "#FF5D8F",
+  "center": "#A78BFA",
+  "minimum": "#29B6FF",
+  "null": "#64748B",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#F4F8FF"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#F4F8FF"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#EAF4FF"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#B8C7DA"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontFace": "Segoe UI Semibold",
+            "fontSize": 12,
+            "bold": true,
+            "color": {
+              "solid": {
+                "color": "#F4F8FF"
+              }
+            },
+            "alignment": "center"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#0B1526"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#087FA3"
+              }
+            },
+            "radius": 5
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#070D18"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#070D18"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
